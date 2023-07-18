@@ -3,6 +3,10 @@ Um menu de navegação responsivo é uma ferramenta essencial para garantir uma 
 
 ![Captura de Tela (12)](https://github.com/WV-Wesley-Victor/Menu-de-Navegacao-Responsivo/assets/137107062/18866279-b48c-487c-89ba-98d25c31e7a7)
 
+<p align="center">
+  <a href="https://wv-wesley-victor.github.io/Menu-de-Navegacao-Responsivo/" target="_blank">Clique aqui para visitar o projeto</a>
+</p>
+
 ## Descrição
 Este projeto consiste em um menu de navegação responsivo para sites ou aplicativos móveis. O menu é projetado para se ajustar automaticamente ao tamanho da tela, proporcionando uma experiência de usuário agradável em dispositivos móveis, tablets e desktops.
 
@@ -28,5 +32,8 @@ O menu de navegação responsivo pode ser facilmente personalizado para se adequ
 ## Contribuição
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções para o menu de navegação responsivo, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
+## Autor
+* Wesley Victor - https://github.com/WV-Wesley-Victor
+
 ## Licença
-Este projeto está licenciado sob a MIT License.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md)  para obter detalhes
