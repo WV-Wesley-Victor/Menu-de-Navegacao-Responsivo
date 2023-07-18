@@ -36,4 +36,4 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correç
 * Wesley Victor - https://github.com/WV-Wesley-Victor
 
 ## Licença
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE.md](LICENSE.md)  para obter detalhes
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE)  para obter detalhes
