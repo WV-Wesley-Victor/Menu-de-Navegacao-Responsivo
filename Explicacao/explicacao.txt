@@ -1,0 +1,57 @@
+Vamos explicar o código passo a passo:
+
+- A estrutura do documento HTML começa com a declaração <!DOCTYPE html> e a tag <html lang="pt-br"> define o idioma da página como português do Brasil.
+
+- A tag <head> contém metadados do documento, incluindo a codificação de caracteres, a escala inicial da viewport e o autor da página.
+
+- Um arquivo CSS externo é importado através da tag <link rel="stylesheet" href="style.css">. Esse arquivo contém estilos para formatar a aparência da página.
+
+- O título da página é definido dentro da tag <title> como "Menu Navbar".
+
+- O corpo da página começa com a tag <body>, onde todo o conteúdo visível é colocado.
+
+- O cabeçalho (header) é definido usando a tag <header>. Dentro do cabeçalho, há uma barra de navegação (navbar) representada pela tag <nav>.
+
+- A barra de navegação contém vários elementos:
+
+- Um link com a classe "logo" que exibe "Logo" como o texto do link.
+Um elemento com a classe "mobile-menu" que representa o ícone de menu móvel (hambúrguer) para telas menores.
+Uma lista não ordenada <ul> com a classe "nav-list" contendo três itens de lista <li>, cada um representando um link de navegação com os textos "Inicio", "Sobre" e "Projetos".
+
+- O elemento <main> é usado para o conteúdo principal da página e possui uma imagem de fundo definida por url("img/bg.jpg"). A imagem de fundo é exibida no centro da viewport e ajustada para cobrir toda a área.
+
+- O código CSS está embutido na página usando a tag <style>. Ele define vários estilos para formatar os elementos da página, como cores, tamanhos de fonte, espaçamento e animações.
+
+- O CSS define um estilo padrão para links (tags <a>) com cor branca e transição suave ao passar o mouse sobre eles.
+
+- A classe "logo" é estilizada para aumentar o tamanho da fonte, converter o texto em maiúsculas e adicionar um espaçamento entre as letras.
+
+- A classe "nav" estiliza a barra de navegação com uma cor de fundo (#23232e) e centraliza os itens.
+
+- A classe "main" estiliza o elemento <main> com uma imagem de fundo e ajusta o tamanho da viewport (92vh) para ocupar a maior parte da tela.
+
+- A classe "nav-list" formata a lista de navegação para remover a lista de pontos e exibir os itens em linha.
+
+- A classe "mobile-menu" é usada para esconder o ícone do menu móvel quando a tela não é estreita o suficiente. Ele contém três divs que representam as três linhas do ícone do menu.
+
+- A regra de mídia (media query) aplica estilos diferentes quando a largura da tela é menor que 1000 pixels (max-width: 999px). Nesse caso, a barra de navegação é transformada para fora da tela e animada para aparecer quando o ícone do menu móvel é clicado.
+
+- A classe "active" é usada para controlar o estado aberto/fechado do menu móvel e da lista de navegação.
+
+- A classe "mobile-menu active" aplica estilos adicionais ao ícone do menu móvel quando o menu é aberto. Ele rotaciona e esconde as linhas para formar o ícone "X".
+
+- O JavaScript é usado para tornar o menu móvel funcional. Ele cria uma classe chamada "MobileNavbar" que controla o comportamento do menu móvel.
+
+- A classe "MobileNavbar" recebe três parâmetros: o seletor do ícone do menu móvel, o seletor da lista de navegação e o seletor dos itens da lista.
+
+- O método "animateLinks()" é responsável por animar os itens da lista quando o menu é aberto.
+
+- O método "handleClick()" é chamado quando o ícone do menu móvel é clicado. Ele adiciona ou remove a classe "active" da lista de navegação e do ícone do menu móvel e chama o método "animateLinks()" para animar os itens.
+
+- O método "addClickEvent()" adiciona um ouvinte de evento de clique ao ícone do menu móvel para chamar o método "handleClick()" quando é clicado.
+
+- O método "init()" inicializa o menu móvel adicionando o ouvinte de evento de clique ao ícone do menu móvel e retornando a instância da classe "MobileNavbar".
+
+- Finalmente, o código JavaScript cria uma instância do menu móvel com os seletores relevantes e chama o método "init()" para tornar o menu funcional.
+
+Em resumo, o código cria uma página HTML com um cabeçalho contendo uma barra de navegação que possui links para "Inicio", "Sobre" e "Projetos". Para telas menores, um ícone de menu móvel é exibido, permitindo que os usuários abram o menu e acessem os links de navegação. O JavaScript é usado para adicionar interatividade ao menu móvel e controlar sua abertura/fechamento, bem como animar a aparência dos itens da lista quando o menu é aberto.
