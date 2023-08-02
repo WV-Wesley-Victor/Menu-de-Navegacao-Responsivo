@@ -17,6 +17,16 @@ Este projeto consiste em um menu de navegação responsivo para sites ou aplicat
 * Compatibilidade com os principais navegadores
 * Totalmente personalizável e fácil de integrar a qualquer projeto
 
+## Fontes de Pesquisa
+* W3Schools - Responsive Navigation Bar: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+* CSS-Tricks - Responsive Navigation: https://css-tricks.com/convert-menu-to-dropdown/
+* Codecademy - Responsive Design: https://www.codecademy.com/learn/learn-responsive-design
+* MDN Web Docs - Responsive Web Design: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+* Bootstrap Documentation - Navigation: https://getbootstrap.com/docs/5.0/components/navbar/
+* Pinterest: https://www.pinterest.com/
+* Behance: https://www.behance.net/
+* Dribbble: https://dribbble.com/
+
 ## Instalação
 Para utilizar o menu de navegação responsivo em seu projeto, siga as etapas abaixo:
 
